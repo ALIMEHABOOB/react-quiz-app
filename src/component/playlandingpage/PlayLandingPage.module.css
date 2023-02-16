@@ -1,0 +1,19 @@
+
+#instruction1{
+    width: 80%;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-top: 5%;
+    ;
+}
+.right a{
+    margin-left: 55%;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+.left a{
+    font-size: 20px;
+    text-decoration: none;
+}   

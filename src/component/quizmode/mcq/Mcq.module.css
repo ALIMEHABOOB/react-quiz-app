@@ -1,0 +1,111 @@
+#mcqBlock {
+  height: 100vh;
+  width: 100vw;
+  background-color: #eee;
+}
+#mcqBlock #navBlock {
+  height: 15vh;
+  width: 100%;
+  background-color: #111;
+}
+#arrowBlock {
+  /* display: flex; 
+     justify-content: space-between;  */
+  cursor: pointer;
+  position: absolute;
+}
+#arrowBlock span {
+  margin: 0 2em;
+  border: 1px solid #111;
+  padding: 0.2em;
+}
+#forwardBlock {
+  position: absolute;
+  left: 1533%;
+  top: 9.5%;
+}
+#QRevBlock {
+  top: 10%;
+}
+#QuestionBlock {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+#GreenQuestion {
+  color: rgb(236, 26, 51);
+  padding-left: 3em;
+}
+#btnBlock button {
+  border-radius: 20px;
+  width: 2.5em;
+  height: 1.9em;
+  text-align: center;
+  border: none;
+}
+#OptionBlock {
+  background-color: black;
+  color: white;
+  height: 22em;
+  margin: 0 2em;
+}
+
+#OptionBlock div {
+  font-size: 20px;
+  display: flex;
+  gap: 1em;
+  line-height: 3em;
+  padding: 0 2em;
+}
+#pageNav {
+  margin: 1em 37em;
+}
+#pageNav a {
+  height: 2.75em;
+}
+#btnSet {
+  position: absolute;
+  right: 4em;
+  top: 32em;
+  /* background-color: red; */
+  width: 20em;
+  display: flex;
+  justify-content: space-evenly;
+}
+#btnSet #greyBtn {
+  background-color: white;
+  height: 2.5em;
+  width: 6em;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+}
+#btnSet #greyBtn:hover {
+  background-color: rgb(112, 114, 112);
+  color: #eee;
+  border: none;
+}
+#btnSet #greenBtn {
+  background-color: rgb(124, 200, 11);
+  height: 2.5em;
+  width: 6em;
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+#btnSet #greenBtn:hover {
+  background-color: rgb(9, 120, 9);
+  color: #eee;
+}
+
+#arrowBtn {
+  font-size: 20px;
+}
+
+#ForwardBtn {
+  font-size: 20px;
+}
+
+/* ----------------------------------- */
+/* radio css */
+ 
